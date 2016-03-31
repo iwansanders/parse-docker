@@ -1,5 +1,5 @@
 FROM node:argon
-MAINTAINER felix@felixrieseberg.com
+MAINTAINER iwan.sanders@gmail.com
 
 RUN mkdir -p /usr/src/parse
 WORKDIR /usr/src/parse
