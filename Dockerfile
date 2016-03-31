@@ -6,6 +6,7 @@ WORKDIR /usr/src/parse
 
 # Install MongoDB
 RUN apt-get update \
+ && apt-get -y install vim \ 
  && apt-get -y install mongodb
 CMD ["/usr/bin/mongod", "--config", "/etc/mongodb.conf"]
 
